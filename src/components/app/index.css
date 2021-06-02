@@ -1,6 +1,6 @@
 main {
   display: flex;
-  min-height: 100em;
+  min-height: 100vh;
   padding-left: 1.2em;
   padding-right: 1.2em;
   font-size: calc(10px + 2vmin);
