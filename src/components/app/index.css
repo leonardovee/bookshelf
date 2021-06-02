@@ -1,0 +1,9 @@
+main {
+  display: flex;
+  min-height: 100em;
+  padding-left: 1.2em;
+  padding-right: 1.2em;
+  font-size: calc(10px + 2vmin);
+  color: #54565A;;
+  background-color: #F2F2F2;
+}
