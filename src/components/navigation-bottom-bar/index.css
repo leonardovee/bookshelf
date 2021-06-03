@@ -1,0 +1,28 @@
+.navigation-bottom-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 0em;
+  height: 4em;
+  width: 100%;
+  margin-left: -1.2em;
+  margin-right: -1.2em;
+  background-color: #FFFFFF;
+}
+
+.navigation-bottom-bar-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  font-size: 2em;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.navigation-bottom-bar-buttom-text {
+  margin: 0;
+  font-size: 0.4em;
+}
