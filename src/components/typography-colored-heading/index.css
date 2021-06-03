@@ -1,0 +1,9 @@
+.typography-colored-heading {
+  margin-top: 1.5em;
+}
+
+.typography-colored-heading-text {
+  font-size: 1.5em;
+  font-weight: 700;
+  color: #FF6978;
+}

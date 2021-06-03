@@ -1,9 +1,9 @@
-.greeting {
+.typography-greeting {
   font-style: normal;
   font-weight: normal;
 }
 
-.greeting-user {
+.typography-greeting-user {
   font-weight: 500;
   color: #FF6978;
 }
