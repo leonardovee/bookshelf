@@ -2,10 +2,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  position: absolute;
-  bottom: 0em;
   height: 4em;
-  width: 100%;
   margin-left: -1.2em;
   margin-right: -1.2em;
   background-color: #FFFFFF;

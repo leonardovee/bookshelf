@@ -3,8 +3,9 @@ import TypographyColoredHeading from '../../components/typography-colored-headin
 import InputText from '../../components/input-text'
 import InputTextArea from '../../components/input-text-area'
 import InputLabel from '../../components/input-label'
-import './index.css'
 import InputButton from '../../components/input-button'
+import NavigationBottomBar from '../../components/navigation-bottom-bar'
+import './index.css'
 
 const AddBookPage = () => (
   <main className='add-book-page'>
@@ -16,6 +17,7 @@ const AddBookPage = () => (
     <InputLabel text='Description'/>
     <InputTextArea rows={20}/>
     <InputButton placeholder='Add new book'/>
+    <NavigationBottomBar/>
   </main>
 )
 
