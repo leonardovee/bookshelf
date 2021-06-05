@@ -1,11 +1,10 @@
 import React, { Fragment } from 'react'
-import { Paper } from '@material-ui/core'
 import PropTypes from 'prop-types'
 import './index.css'
 
 const BookListBook = (props) => (
   <Fragment>
-    <Paper className='book-list-book'></Paper>
+    <div className='book-list-book'></div>
     <p className='book-list-book-name'>{props.name}</p>
     <p className='book-list-book-author'>by {props.author}</p>
   </Fragment>
