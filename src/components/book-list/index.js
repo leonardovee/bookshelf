@@ -5,7 +5,7 @@ import api from '../../services/api.js'
 import './index.css'
 
 const BookList = () => {
-  const [books, setBooks] = useState()
+  const [books, setBooks] = useState([])
 
   useEffect(() => {
     load()
