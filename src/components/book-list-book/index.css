@@ -1,0 +1,16 @@
+.book-list-book {
+  height: 6.6em;
+  width: 5em;
+}
+
+.book-list-book-name {
+  font-size: 0.8em;
+  font-weight: 600;
+  margin: 0.5em 0 0 0;
+}
+
+.book-list-book-author {
+  font-size: 0.8em;
+  font-weight: 600;
+  margin: 0.3em 0 0 0;
+}
