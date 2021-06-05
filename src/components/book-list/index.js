@@ -11,8 +11,12 @@ const BookList = () => {
     load()
   }, [setBooks])
 
+  const getQuery = () => {
+    return window.location.search
+  }
+
   const load = async () => {
-    const response = await api.get('/books')
+    const response = await api.get(`/books${getQuery()}`)
     if (!response.data) return
     setBooks(response.data)
   }
