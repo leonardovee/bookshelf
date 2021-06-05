@@ -4,7 +4,7 @@ import './index.css'
 
 const InputButton = (props) => (
   <section className='input-button'>
-    <button className='input-button-button' onClick={props.onClick}>{props.placeholder}</button>
+    <button className='input-button-button' onClick={e => props.onClick()}>{props.placeholder}</button>
   </section>
 )
 
