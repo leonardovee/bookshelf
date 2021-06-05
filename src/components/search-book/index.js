@@ -4,8 +4,8 @@ import { debounce } from 'debounce'
 import './index.css'
 
 const route = debounce(value => {
-  const query = (new URLSearchParams({ book: value })).toString()
-  window.location = `/search/${query}`
+  const query = (new URLSearchParams({ name: value })).toString()
+  window.location = `/search?${query}`
 }, 1500)
 
 const SearchBook = (props) => {
