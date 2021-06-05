@@ -23,3 +23,8 @@
   outline: none !important;
   border: 2px solid #FF6978;
 }
+
+.input-text-box-invalid {
+  outline: none !important;
+  border: 2px solid #FF6978;
+}
