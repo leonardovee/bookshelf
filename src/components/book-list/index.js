@@ -1,15 +1,22 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import { Grid } from '@material-ui/core'
 import BookListBook from '../book-list-book'
+import api from '../../services/api.js'
 import './index.css'
 
 const BookList = () => {
-  const books = [
-    {
-      name: 'The One Thing',
-      author: 'Gary Keller'
-    }
-  ]
+  const [books, setBooks] = useState()
+
+  useEffect(() => {
+    load()
+  }, [setBooks])
+
+  const load = async () => {
+    const response = await api.get('/books')
+    if (!response.data) return
+    setBooks(response.data)
+  }
+
   return (
     <div className='book-list'>
       <Grid container spacing={3}>
