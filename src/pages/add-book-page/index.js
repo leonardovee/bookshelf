@@ -15,7 +15,7 @@ const AddBookPage = () => (
     <InputLabel text='Author'/>
     <InputText/>
     <InputLabel text='Description'/>
-    <InputTextArea rows={20}/>
+    <InputTextArea rows={5}/>
     <InputButton placeholder='Add new book'/>
     <NavigationBottomBar/>
   </main>
