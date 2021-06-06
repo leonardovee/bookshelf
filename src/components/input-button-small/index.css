@@ -1,0 +1,20 @@
+.input-button-small {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+.input-button-small-button {
+  padding: 0.5em;
+  border: none;
+  background: #FDFCFC;
+  box-shadow: 5px 5px 80px rgba(212, 173, 134, 0.4926);
+  border-radius: 10px;
+  color: #FFFFFF;
+  background: #FF6978;
+  font-size: 1em;
+  font-weight: 500;
+}
