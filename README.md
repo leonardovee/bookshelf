@@ -1,5 +1,7 @@
 # bookshelf
 
+[![Maintainability](https://api.codeclimate.com/v1/badges/2aafaccb439fb4609754/maintainability)](https://codeclimate.com/github/leonardovee/bookshelf/maintainability) [![Test Coverage](https://api.codeclimate.com/v1/badges/2aafaccb439fb4609754/test_coverage)](https://codeclimate.com/github/leonardovee/bookshelf/test_coverage)
+
 Hello, to use this projet you gotta have installed in your machine: Node.js, NPM and Git, but since you're here, you have all of that.
 <p align="center">
     <img src="https://user-images.githubusercontent.com/40545957/120939216-545f1b80-c6ed-11eb-9d6d-6b3ac376061b.png" height="500" width="225">
