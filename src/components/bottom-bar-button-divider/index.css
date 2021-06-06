@@ -1,0 +1,9 @@
+.bottom-bar-button-divider {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.bottom-bar-button-divider div {
+  color: rgba(151, 151, 151, 0.2);
+}

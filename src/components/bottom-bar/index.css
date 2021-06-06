@@ -1,0 +1,11 @@
+.bottom-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 4em;
+  margin-bottom: 1.5em;
+  border-radius: 0.2em;
+  background-color: #FFFFFF;
+  box-shadow: 3px 3px 23px rgba(107, 103, 70, 0.125901);
+}

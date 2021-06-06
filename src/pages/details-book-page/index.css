@@ -123,6 +123,8 @@
 
 .details-book-page-description {
   flex-grow: 1;
+  height: 15em;
+  overflow-y: scroll;
 }
 
 .details-book-page-button {

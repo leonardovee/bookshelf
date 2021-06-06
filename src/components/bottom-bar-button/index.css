@@ -1,0 +1,15 @@
+.bottom-bar-button {
+  display: flex;
+  flex-direction: row;
+  padding: 1em;
+}
+
+.bottom-bar-buttom-icon {
+  padding: 0.2em;
+  font-size: 1em;
+}
+
+.bottom-bar-buttom-text {
+  padding: 0.2em;
+  font-size: 1em;
+}

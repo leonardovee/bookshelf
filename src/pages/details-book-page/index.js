@@ -6,6 +6,7 @@ import wavedCircle from '../../assets/waved-circle.svg'
 import pinkSmallCircle from '../../assets/pink-small-circle.svg'
 import blackCircle from '../../assets/black-circle.svg'
 import { FaArrowLeft } from 'react-icons/fa'
+import BottomBar from '../../components/bottom-bar/index.js'
 import './index.css'
 
 const DetailsBookPage = () => {
@@ -58,6 +59,7 @@ const DetailsBookPage = () => {
       <h4 className='details-book-page-heading'>{book.name}</h4>
       <p className='details-book-page-author'>{book.author}</p>
       <p className='details-book-page-description'>{book.description}</p>
+      <BottomBar/>
     </section>
   )
 }
