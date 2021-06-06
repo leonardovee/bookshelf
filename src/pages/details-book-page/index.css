@@ -1,0 +1,133 @@
+.details-book-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  padding-top: 2em;
+}
+
+.details-book-page-book {
+  z-index: 10;
+  position: absolute;
+  display: flex;
+  margin-left: -1.2em;
+  margin-right: -1.2em;
+  margin-top: -2em;
+  height: 23em;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.details-book-page-book-cover {
+  background-color: #FF6978;
+  height: 13em;
+  width: 9em;
+  border-radius: 0.3em;
+}
+
+.details-book-page-art {
+  display: flex;
+  flex-direction: column;
+  margin-left: -1.2em;
+  margin-right: -1.2em;
+  margin-top: -2em;
+  margin-bottom: 2em;
+  border-radius: 0 0 6em 0;
+  background-color: #FFF6E5;
+  height: 16em;
+}
+
+.details-book-page-art-row-1 {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  width: 100%;
+}
+
+.details-book-page-art-row-1-waved-half-circle {
+  height: 6em;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.details-book-page-art-row-2 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.details-book-page-art-row-2-expansible {
+  flex-grow: 1;
+}
+
+.details-book-page-art-row-3 {
+  display: flex;
+  align-items: flex-start;
+}
+
+.details-book-page-art-row-3-pink-small-circle {
+  margin-left: 3em;
+}
+
+.details-book-page-art-row-3-black-circle {
+  margin-left: 0.5em;
+}
+
+.details-book-page-art-row-3-expansible {
+  flex-grow: 1;
+}
+
+.details-book-page-art-row-2-transparent-circle {
+  height: 1.5em;
+  width: 13em;
+  display: flex;
+}
+
+.details-book-page-art-row-4 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 10em;
+  align-items: center;
+}
+
+.details-book-page-art-row-4-expansible {
+  flex-grow: 1;
+}
+
+.details-book-page-art-row-4-waved-circle {
+  height: 3.5em;
+  width: 14em;
+  display: flex;
+}
+
+.details-book-page-heading {
+  font-weight: 600;
+  font-size: 1.4em;
+  line-height: 1.4em;
+  letter-spacing: 0.03em;
+  color: #36383A;
+  margin-bottom: 0;
+}
+
+.details-book-page-author {
+  font-weight: 400;
+  font-size: 1em;
+  line-height: 1em;
+  letter-spacing: 0.03em;
+  color: #FF6978;
+  margin-bottom: 0;
+}
+
+.details-book-page-description {
+  flex-grow: 1;
+}
+
+.details-book-page-button {
+  z-index: 11;
+  position: absolute;
+  display: flex;
+  font-size: 1.2em;
+  width: 100%;
+}

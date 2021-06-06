@@ -26,7 +26,7 @@ const BookList = () => {
       <Grid container spacing={3}>
         {books && books.map((book, idx) => (
           <Grid key={idx} item xs={4} sm={3} xl={1}>
-            <BookListBook name={book.name} author={book.author}/>
+            <BookListBook _id={book._id} name={book.name} author={book.author}/>
           </Grid>
         ))}
       </Grid>
